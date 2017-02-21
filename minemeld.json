@@ -1,0 +1,16 @@
+{
+    "version": "0.1",
+    "name": "ipsum-miner",
+    "author": "Shams Zawoad",
+    "author_email": "szawoad42@gmail.com",
+    "description": "Minemeld node for IP Sum",
+    "entry_points": {
+        "minemeld_nodes": {
+            "ipsum.Miner": "ipsumminer.node:Miner"
+        },
+        "minemeld_prototypes": {
+            "ipsumminer.prototypes": "ipsumminer:prototypes"
+        }
+    },
+    "manifest_version": 0
+}

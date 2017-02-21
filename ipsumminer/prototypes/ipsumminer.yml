@@ -1,0 +1,30 @@
+url: https://github.com/zawoad/ipsum-miner
+description: >
+  Sample extension for MineMeld.
+
+prototypes:
+  eevblog:
+    author: Shams Zawoad
+    class: ipsumminer.Miner
+    development_status: EXPERIMENTAL
+    node_type: miner
+    indicator_types:
+      - IP
+    tags:
+      - extension
+      - ipsumminer
+    description: >
+      test prototype for ipsumminer.Miner, mines video of EEVblog
+    config:
+      # set the channel name to IPSumFeed
+      channel_name: IPSumFeed
+      # source name used in the indicators
+      source_name: ipsum.IPSumFeed
+      # age out of indicators
+      # disabled, removed when they disappear from the channel
+      age_out:
+        sudden_death: true
+        default: null
+      # flag indicators with share level green
+      attributes:
+        share_level: green
