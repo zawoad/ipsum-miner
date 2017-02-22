@@ -3,7 +3,7 @@ description: >
   Sample extension for MineMeld.
 
 prototypes:
-  eevblog:
+  ipsumfeed:
     author: Shams Zawoad
     class: ipsumminer.Miner
     development_status: EXPERIMENTAL
@@ -14,7 +14,7 @@ prototypes:
       - extension
       - ipsumminer
     description: >
-      test prototype for ipsumminer.Miner, mines video of EEVblog
+      test prototype for ipsumminer.Miner, mines IPs from IPSum Feed
     config:
       # set the channel name to IPSumFeed
       channel_name: IPSumFeed
