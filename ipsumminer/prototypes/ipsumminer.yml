@@ -19,7 +19,7 @@ prototypes:
       # set the channel name to IPSumFeed
       channel_name: IPSumFeed
       # source name used in the indicators
-      source_name: ipsum.IPSumFeed
+      source_name: ipsumminer.IPSumFeed
       # age out of indicators
       # disabled, removed when they disappear from the channel
       age_out:

@@ -6,7 +6,7 @@
     "description": "Minemeld node for IP Sum",
     "entry_points": {
         "minemeld_nodes": {
-            "ipsum.Miner": "ipsumminer.node:Miner"
+            "ipsumminer.Miner": "ipsumminer.node:Miner"
         },
         "minemeld_prototypes": {
             "ipsumminer.prototypes": "ipsumminer:prototypes"
