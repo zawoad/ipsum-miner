@@ -54,7 +54,7 @@ class Miner(BasePollerFT):
 
         indicator = arr[0]
         value = {
-            'type': 'IP',
+            'type': 'IPv4',
             'confidence': 100
         }
 
