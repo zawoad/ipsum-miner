@@ -11,7 +11,7 @@ class Miner(BasePollerFT):
     def configure(self):
         super(Miner, self).configure()
 
-        self.polling_timeout = self.config.get('polling_timeout', 20)
+        self.polling_timeout = self.config.get('polling_timeout', 3600)
         self.verify_cert = self.config.get('verify_cert', False)
 
         self.url = 'https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt'
@@ -55,7 +55,7 @@ class Miner(BasePollerFT):
         indicator = arr[0]
         value = {
             'type': 'IPv4',
-            'confidence': 100
+            'confidence': 50
         }
 
         return [[indicator, value]]

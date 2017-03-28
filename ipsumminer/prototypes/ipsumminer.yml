@@ -25,6 +25,10 @@ prototypes:
       age_out:
         sudden_death: true
         default: null
+        interval: 257
       # flag indicators with share level green
       attributes:
         share_level: green
+        type: IPv4
+        confidence: 50
+        direction: inbound
